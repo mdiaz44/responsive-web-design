@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/738/805/desktop-wallpaper-thunderstorm-field-rain-rain-animation-live-heavy-rain-storm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 25px;
+    color: white;
+  }
+  
+  p {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .credits {
+    color: white;
+  }
+  
+  .image {
+    max-width: 100%;
+  }

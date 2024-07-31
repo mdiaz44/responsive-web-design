@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    color: #030303;
+    font-size: 30px;
+  }
+  
+  nav {
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 1000px){
+    #navbar {
+      width: 800px;
+    }
+  }
+  
+  main {
+    padding: 10 100 100 100;
+  }

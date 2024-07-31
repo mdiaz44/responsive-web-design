@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta_socioeconomica</title>
+    <link rel="stylesheet" href="encuesta.css" />
+</head>
+<body>
+ <h1 id="title">Encuesta Socioeconomica</h1>
+ <p id="description">Esta encuesta sera usada para obtener informacion socioeconomica de la poblacion en la ciudad de Mexicali</p>
+ <form id="survey-form" required>
+  <fieldset>
+   <label id="name-label">Nombre completo:<input id="name" type="text" placeholder="Miguel Diaz" required/></label>
+   <label id="email-label">Email:<input id="email" type="email" placeholder="miguel.diaz@correo.com" required/></label>
+   <label id="number-label">Edad(años completos):<input id="number" type="number" min="1" max="125" placeholder="000"></label>
+  </fieldset>
+  <fieldset>
+   <p>¿Cuales son sus fuentes de ingreso?</p>
+   <label><input value="0" name="ingreso" type="radio" class="inline"/>Salario</label>
+   <label><input value="1" name="ingreso" type="radio" class="inline"/>Empresariado</label>
+   <label><input value="2" name="ingreso" type="radio" class="inline"/>Empresariado y salario</label>
+   <label><input value="3" name="ingreso" type="radio" class="inline"/>Otro</label>
+  </fieldset>
+  <fieldset>
+   <label>Selecciona tu rango de ingreso mensual:
+     <select id="dropdown">
+       <option>$0 a $9,000</option>
+       <option>$9,001 a $18,000</option>
+       <option>$18,001 a $30,000</option>
+       <option>$30,001 a $40,000</option>
+       <option>$40,001 o mas</option>
+     </select>
+   </label>
+  </fieldset>
+  <fieldset>
+   <p>¿Cual es su nivel de estudios terminado?</p>
+   <label>Secundaria o menor<input name="estudios" value="10" type="checkbox" class="inline"/></label>
+   <label>Bachillerato<input name="estudios"value="20" type="checkbox" class="inline"/></label>
+   <label>universitarios o superiores<input name="estudios" value="30" type="checkbox" class="inline"/></label>
+  </fieldset>
+  <fieldset>
+    <label>Comentarios finales:
+      <textarea placeholder="Comentario final"></textarea>
+    </label>
+  </fieldset>
+  <input id="submit" type="submit" value="submit"/>
+ </form>
+</body>
+</html>

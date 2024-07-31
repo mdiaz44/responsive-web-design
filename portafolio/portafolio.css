@@ -1,0 +1,67 @@
+body {
+    background-color: #176B87;
+  }
+  
+  #navbar {
+    float: right;
+  position: fixed;
+    background-color: #64CCC5; 
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  
+  nav ul {
+  list-style-type: none;
+  }
+  
+  nav li {
+  display: inline;
+  }
+  
+  nav li a {
+  display: inline-block;
+  padding: -5px;
+  text-decoration: none;
+  color: #176B87;
+  }
+  
+  #welcome-section {
+    width: 100%;
+    text-align: center;
+    background-color: #001C30;
+    height: 500px;
+  }
+  
+  #hello {
+    text-align: center;
+    font-size: 30px;
+    color: #64CCC5;
+    height: 70%;
+  }
+  
+  .sub-hello {
+    font-size: 20px;
+    color: #DAFFFB;
+  }
+  
+  .project-tile {
+    text-align: center;
+  }
+  
+  .project-1 {
+    text-align: center;
+    background-color: #001C30;
+    padding-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  @media (min-width: 1025px) {
+      body {
+          font-size: 18px;
+      }
+  }

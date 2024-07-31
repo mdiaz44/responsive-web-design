@@ -1,0 +1,108 @@
+header {
+    font-family: Brush Script MT;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  width: 39px;
+  border-radius: 30px;
+}
+
+.principal {
+  padding-left: 15px;
+}
+
+#nav-bar {
+  float: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 15px 30px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+
+nav li a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#Features {
+  text-align: center;
+}
+
+.material {
+  text-align: left;
+  padding-left: 200px;
+  width: 500px;
+}
+
+#New-Animes {
+  text-align: center;
+}
+
+.anime-1 {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.video-container {
+  width: 400px;
+  height: 220px;
+}
+
+.youtube-player {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#Prices {
+  text-align: center;
+}
+
+.letra-manga {
+  font-size: 15px;
+  display: inline-block;
+}
+
+.manga-1 {
+  width: 200px;
+  height: 300px;
+  padding: 25px;
+}
+
+.form {
+  box-sizing: content-box;
+  width: 350px;
+  border: solid #000000 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.email {
+  display: inline;
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
